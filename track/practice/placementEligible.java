@@ -1,4 +1,4 @@
-package track.practice040826;
+package track.practice;
 
 public class placementEligible {
     public static void main(String[] args) {

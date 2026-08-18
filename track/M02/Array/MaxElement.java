@@ -2,7 +2,7 @@ package track.M02.Array;
 
 import java.util.Scanner;
 
-public class SumOfElements {
+public class MaxElement {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -13,16 +13,18 @@ public class SumOfElements {
             a[i] = sc.nextInt();
         }
 
-        System.out.println("Array Elements Are: ");
+        System.out.print("Array Elements: ");
         for (int i = 0; i < a.length; i++) {
             System.out.print(a[i] + " ");
         }
 
-        int sum = 0;
+        int max = a[0];
         for (int i = 0; i < a.length; i++) {
-            sum += a[i];
+            if (max < a[i]) {
+                max = a[i];
+            }
         }
-        System.out.println();
-        System.out.println("Sum: " + sum);
+
+        System.out.println("Max: " + max);
     }
 }

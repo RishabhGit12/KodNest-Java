@@ -19,6 +19,7 @@ class ArraySearch {
             if (ref[i] == key) {
                 System.out.println("Element found at: " + i);
                 found = true;
+                break;
             }
         }
         if (!found) {

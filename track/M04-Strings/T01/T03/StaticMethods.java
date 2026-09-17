@@ -3,7 +3,7 @@ package T03;
 public class StaticMethods {
 
     public static void main(String[] args) {
-        // Static methods can be called directly without creating an object using class name.
+        // Static methods can be called directly without creating an object using ClassName/this keyword.
         Car.convertKmIntoMiles();
 
         // Non-Static/Instance methods need to create object for execution.

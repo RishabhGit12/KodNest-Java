@@ -3,6 +3,7 @@ package T03;
 public class StaticVsNonStaticBlock {
 
     public static void main(String[] args) {
+        // Non Static blocks gets executed As Many Times As We Create An Object, whereas Static Blocks Gets Executed Only Once
         Demo d1 = new Demo();
         Demo d2 = new Demo();
         Demo d3 = new Demo();

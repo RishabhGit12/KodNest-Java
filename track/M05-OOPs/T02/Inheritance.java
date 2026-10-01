@@ -1,6 +1,3 @@
-package track.M05
-
--OOPs.T02;
 
 public class Inheritance {
 

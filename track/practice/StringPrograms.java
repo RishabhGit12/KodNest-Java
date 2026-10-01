@@ -33,5 +33,17 @@ public class StringPrograms {
             }
         }
 
+        String s3 = "potato";
+        int l1 = s3.length();
+        Set<Character> hs = new HashSet<>();
+        for (int i = 0; i < l1; i++) {
+            hs.add(s3.charAt(i));
+        }
+        StringBuilder sb = new StringBuilder();
+        for (char c : hs) {
+            sb.append(c);
+        }
+        System.out.println(sb);
+
     }
 }

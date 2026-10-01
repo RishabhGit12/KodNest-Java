@@ -45,5 +45,18 @@ public class StringPrograms {
         }
         System.out.println(sb);
 
+        String s4 = "silent";
+        String s5 = "listen";
+        int[] freqArr = new int[256];
+        for (int i = 0; i < s4.length(); i++) {
+            freqArr[s4.charAt(i)]++;
+            freqArr[s5.charAt(i)]--;
+        }
+        for (int n : freqArr) {
+            if (n != 0) {
+                System.out.println("Anagrams");
+            }
+        }
+
     }
 }
